@@ -62,6 +62,7 @@ header > p {
 }
 main {
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.397);
+    width: 100%;
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
@@ -79,6 +80,7 @@ div.container {
     color: white;
     background-color: var(--cor1);
     display: flex;
+    width: 100%;
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
@@ -116,7 +118,8 @@ ul {
 div#projetos {
     background-image: linear-gradient(to top, var(--cor0), var(--cor1));
     height: 500px;
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
